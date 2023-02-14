@@ -13,11 +13,11 @@ tg.MainButton.setText("норм"); //изменяем текст кнопки и
 tg.MainButton.textColor = "blue"; //изменяем цвет текста кнопки
 tg.MainButton.color = "yellow"; //изменяем цвет бэкграунда кнопки
 
-
-
-tg.sendData(
-	JSON.stringify({
-		phone: document.querySelector("#phone").value,
-		password: document.querySelector("#password").value,
-	}),
-);
+tg.onEvent('mainButtonClicked', () => {
+	tg.sendData(
+		JSON.stringify({
+			phone: document.querySelector("#phone").value,
+			password: document.querySelector("#password").value,
+		}),
+	);
+});
