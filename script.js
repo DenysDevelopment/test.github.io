@@ -10,8 +10,8 @@ tg.MainButton.color = "#ffffff";
 
 
 tg.MainButton.setText("норм"); //изменяем текст кнопки иначе
-tg.MainButton.textColor = "blue"; //изменяем цвет текста кнопки
-tg.MainButton.color = "yellow"; //изменяем цвет бэкграунда кнопки
+tg.MainButton.textColor = "#ff62ff"; //изменяем цвет текста кнопки
+tg.MainButton.color = "#48ff60"; //изменяем цвет бэкграунда кнопки
 
 tg.onEvent('mainButtonClicked', () => {
 	tg.sendData(
