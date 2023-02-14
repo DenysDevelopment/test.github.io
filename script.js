@@ -1,6 +1,9 @@
 const tg = window.Telegram.WebApp;
 
 tg.expand();
+tg.MainButton.show("dwdwwd");
+
+document.write(tg.initDataUnsafe.user.first_name);
 
 tg.MainButton.textColor = "#ffffff";
 tg.MainButton.color = "#ffffff";
