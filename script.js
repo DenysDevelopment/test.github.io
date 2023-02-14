@@ -15,6 +15,7 @@ tg.MainButton.color = "#143F6B"; //изменяем цвет бэкграунд�
 tg.MainButton.setParams({ "color": "#143F6B" }); //так изменяются все параметры
 
 
+
 tg.sendData(
 	JSON.stringify({
 		phone: document.querySelector("#phone").value,
